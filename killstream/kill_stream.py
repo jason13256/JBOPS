@@ -53,9 +53,9 @@ from datetime import datetime
 import requests
 
 
-TAUTULLI_URL = ''
-TAUTULLI_APIKEY = ''
-TAUTULLI_PUBLIC_URL = ''
+TAUTULLI_URL = 'https://tautulli.jdhosting.plexium.uk/'
+TAUTULLI_APIKEY = '222b2a4d30d44090a1922c9bc7e1222d'
+TAUTULLI_PUBLIC_URL = 'https://tautulli.jdhosting.plexium.uk/'
 TAUTULLI_URL = os.getenv('TAUTULLI_URL', TAUTULLI_URL)
 TAUTULLI_PUBLIC_URL = os.getenv('TAUTULLI_PUBLIC_URL', TAUTULLI_PUBLIC_URL)
 TAUTULLI_APIKEY = os.getenv('TAUTULLI_APIKEY', TAUTULLI_APIKEY)
